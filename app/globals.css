@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  --color-beige: #fbf5eb;
+  --color-raven: #1a1a1a;
+  --color-grey: #8c8c8c;
+  --color-red: #c33f39;
+  --color-tan: #ccc2b2;
+
+  --background: var(--color-beige);
+  --foreground: var(--color-raven);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+}
